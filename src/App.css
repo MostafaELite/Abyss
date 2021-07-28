@@ -1,5 +1,7 @@
-.App {
+body {
   text-align: center;
+  background-color: #18191a;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +37,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.question-header{
+  border-radius: 20px;
+  background-color: #242526;
+  width: 80%;
+  margin: auto;
+  height: 300px;
+}
+
+.question-title{
+  color: white;
+  padding: 3% 0%;
+  text-align: right;
+}
+.mini-profile-pic{
+  width: 50%;
+  height: 50%;
+  padding: 3%;
+  text-align: center;
 }
